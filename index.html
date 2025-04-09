@@ -6,6 +6,7 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/_custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -118,37 +119,49 @@
       </div>
     </div>
 
-      <div id="review" class="container review-section py-5">
+      <div id="review" class="w-75 py-5 mx-auto">
           <h2 class="text-center mb-4">Top Reviews</h2>
           <div class="row">
 
-              <div class="col-md-4 mb-4">
-                  <div class="card-hover-effect"></div>
+              <div class="container-review-section col-md-4 mb-4">
                   <div class="card">
                       <div class="card-body">
                           <h5 class="card-title">John Doe</h5>
-                          <p class="card-text">"IPhone delivers exceptional performance, a brilliant camera, stunning design, and unmatched reliability for everyday use."</p>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <p class="card-text">"IPhone delivers exceptional performance, a brilliant camera, and unmatched reliability for everyday use."</p>
                       </div>
                   </div>
               </div>
 
 
-              <div class="col-md-4 mb-4">
-                  <div class="card-hover-effect"></div>
+              <div class="container-review-section col-md-4 mb-4">
                   <div class="card">
                       <div class="card-body">
                           <h5 class="card-title">Jane Smith</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
                           <p class="card-text">"The IPad offers incredible performance and an amazing display. A great choice for creatives and professionals."</p>
                       </div>
                   </div>
               </div>
 
 
-              <div class="col-md-4 mb-4">
-                  <div class="card-hover-effect"></div>
+              <div class="container-review-section col-md-4 mb-4">
                   <div class="card">
                       <div class="card-body">
                           <h5 class="card-title">Michael Brown</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
                           <p class="card-text">"MacBook is ultra-light, portable, and fast. It’s a perfect laptop for everyday tasks and productivity on the go."</p>
                       </div>
                   </div>
@@ -157,24 +170,37 @@
       </div>
 
       <div id="contact" class="contact-form">
-          <div class="card w-50 p-4 shadow">
+          <div class="card w-75 p-4 shadow">
               <form>
                   <div>
                       <h3 class="text-center">Contact Form</h3>
                   </div>
-                  <div class="mb-3">
-                      <label for="name" class="form-label d-block text-center">Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                  </div>
-                  <div class="mb-3">
-                      <label for="email" class="form-label d-block text-center">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="e.g. email@example.com">
-                  </div>
-                  <div class="mb-3">
-                      <label for="message" class="form-label d-block text-center">Message</label>
-                      <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-outline-dark d-block mx-auto">Submit</button>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="col-md-6 mb-3 ">
+                            <i class="fa fa-instagram" style="font-size:24px"></i>
+                            <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                            <i class="fa fa-twitter" style="font-size:24px"></i>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
+                        </div>
+                        <div class="col-md-6 ">
+                            <button type="submit" class="btn btn-outline-dark h-25 w-25">Submit</button>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. email@example.com">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <h5>Location</h5>
+                            <p>1 Infinite Loop Cupertino, California 95014 United States</p>
+                        </div>
+                    </div>
               </form>
           </div>
       </div>
