@@ -173,33 +173,44 @@
           <div class="card w-75 p-4 shadow">
               <form>
                   <div>
-                      <h3 class="text-center">Contact Form</h3>
+                      <h3>Contact Form</h3>
                   </div>
                     <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <div class="col-md-8">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Write your message..."></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="e.g. email@example.com">
+                                </div>
+                                <button type="submit" class="btn btn-outline-dark">Submit</button>
+                            </form>
                         </div>
-                        <div class="col-md-6 mb-3 ">
-                            <i class="fa fa-instagram" style="font-size:24px"></i>
-                            <i class="fa fa-facebook-f" style="font-size:24px"></i>
-                            <i class="fa fa-twitter" style="font-size:24px"></i>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
+                                <h4>Contact us</h4>
+                                <h6>Location</h6>
+                                <p>1 Infinite Loop Cupertino, California 95014 United States</p>
+                                <h6>Call us</h6>
+                                <p>+420 800 701 392</p>
+                                <h6>Business hours</h6>
+                                <p>Monday - Friday 9:00 AM - 9:00 PM</p>
+                                <p>Saturday - Sunday 10:30 AM - 7:00 PM</p>
+                            <div class="mb-3">
+                                <div class="social-icons">
+                                    <i class="fa fa-instagram me-2" style="font-size:24px"></i>
+                                    <i class="fa fa-facebook-f me-2" style="font-size:24px"></i>
+                                    <i class="fa fa-twitter me-2" style="font-size:24px"></i>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
-                        </div>
-                        <div class="col-md-6 ">
-                            <button type="submit" class="btn btn-outline-dark h-25 w-25">Submit</button>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="e.g. email@example.com">
-                        </div>
-                        <div class="col-md-6 mb-3">
-                          <h5>Location</h5>
-                            <p>1 Infinite Loop Cupertino, California 95014 United States</p>
-                        </div>
+
                     </div>
               </form>
           </div>

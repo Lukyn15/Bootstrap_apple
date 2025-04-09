@@ -39,3 +39,6 @@
 .checked {
     color: orange;
 }
+.social-icons:hover {
+    cursor: pointer;
+}
