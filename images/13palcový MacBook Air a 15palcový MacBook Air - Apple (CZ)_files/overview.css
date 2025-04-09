@@ -1,0 +1,213 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+article.section-apple-intelligence .apple-intelligence-tabnav-gallery .gallery-item-writing-tools .video {
+	display: none;
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .content-container .hero-copy-container .apple-intelligence-container {
+		margin-top: 34px;
+	}
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-hero .content-container .hero-copy-container .apple-intelligence-container {
+		margin-top: 72px;
+	}
+}
+@media only screen and (min-width: 1069px) {
+	.section-hero .content-container .hero-copy-container .apple-intelligence-container {
+		margin-top: 35px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.performance-modal-content .subsection-gallery .graph-gallery .item-container .bars-container.bar-height-fix {
+		grid-row-gap: 60px;
+	}
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+	.performance-modal-content .subsection-gallery .graph-gallery .item-container .bars-container.bar-height-fix {
+		grid-row-gap: 44px;
+	}
+}
+
+@media only screen and (min-width: 734px) {
+	.privacy-section .privacy-subsection .typography-section-headline-reduced.large-6 {
+		max-width: 60%;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-hero .content-container .hero-headline-container .product-headline {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.overview-switchers-new-mdt {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.overview-switchers-new-mdt {
+		margin-top: 10px;
+	}
+}
+
+.performance-modal-content .subsection-gallery .graph-gallery .item-container .bars-container .bar-baseline .bar-caption {
+	max-width: 22.5rem;
+}
+
+@media only screen and (min-width: 734px) {
+	.section-routers .router-item-environment .router-item-content {
+		margin-top: 52px;
+		margin-bottom: 52px;
+	}
+}
+
+article.section-performance .badge.badge3 .badge-caption:first-child {
+	-webkit-text-fill-color: var(--gradient-green-dark-end);
+}
+
+article.section-apple-intelligence .section-content .headline {
+	font-size: 1em;
+	font-weight: 400;
+	color: #86868b;
+	text-align: center;
+}
+article.section-performance .air-compare .compare-grid .compare-icon-label {
+	max-width: 15em;
+}
+.section-upgraders .tout-grid .grid-item {
+	justify-content: center;
+}
+
+html.js .section-upgraders .item-container .gallery-item .grid-content {
+	margin: unset;
+}
+
+@media only screen and (min-width: 1069px) {
+	article.section-performance .badge .badge-value {
+		font-size: 76px;
+	}
+	.section-routers .router-item-augmented-reality .ar-wrapper-content {
+		min-width: 500px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	article.section-performance .badge .badge-value {
+		font-size: 45px;
+	}
+	.section-routers .router-item-augmented-reality .router-item-headline {
+		font-size: 31px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	article.section-performance .badge.badge1 {
+		margin-right: 27px;
+	}
+	article.section-performance .badge.badge1 {
+		margin-left: 44px;
+	}
+	article.section-performance .badge.badge2 {
+		margin-right: 55px;
+	}
+	article.section-performance .overview-performance-performance-mx {
+		padding-right: 40px;
+	}
+}
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+	article.section-performance .badge.badge1 {
+		margin-right: 27px;
+	}
+	article.section-performance .badge.badge1 {
+		margin-left: 27px;
+	}
+	article.section-performance .badge.badge2 {
+		margin-right: 0px;
+	}
+	article.section-performance .overview-performance-performance-mx {
+		padding-right: 27px;
+	}
+}
+
+.section-hero .hero-copy-wrapper .hero-pricing span[data-pricing-product] {
+	text-transform: unset;
+}
+
+.section-routers .section-compare .macbook-air-13-15-product-intelligence {
+	grid-area: mba1315-biometrics;
+}
+.section-routers .section-compare .macbook-air-13-15-product-biometrics {
+	grid-area: mba1315-battery;
+}
+.section-routers .section-compare .macbook-air-13-15-product-memory {
+	grid-area: mba1315-intelligence;
+}
+.section-routers .section-compare .macbook-air-13-15-product-battery {
+	grid-area: mba1315-storage;
+}
+.section-routers .section-compare .macbook-air-13-15-product-storage {
+	grid-area: mba1315-memory;
+}
+
+.section-routers .section-compare .macbook-pro-14-16-product-intelligence {
+	grid-area: mbp1416-biometrics;
+}
+.section-routers .section-compare .macbook-pro-14-16-product-biometrics {
+	grid-area: mbp1416-battery;
+}
+.section-routers .section-compare .macbook-pro-14-16-product-memory {
+	grid-area: mbp1416-intelligence;
+}
+.section-routers .section-compare .macbook-pro-14-16-product-battery {
+	grid-area: mbp1416-storage;
+}
+.section-routers .section-compare .macbook-pro-14-16-product-storage {
+	grid-area: mbp1416-memory;
+}
+
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-m2-display"] {
+	grid-area: mba-m2-intelligence;
+}
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-m2-wifi"] {
+	grid-area: mba-m2-display;
+}
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-m2-intelligence"] {
+	grid-area: mba-m2-wifi;
+}
+
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-prefix-display"] {
+	grid-area: mba-prefix-intelligence;
+}
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-prefix-wifi"] {
+	grid-area: mba-prefix-display;
+}
+article.section-performance .air-compare .compare-grid [data-grid-area="mba-prefix-intelligence"] {
+	grid-area: mba-prefix-wifi;
+}
+
+@media only screen and (max-width: 734px) {
+	.overview-mac-plus-iphone-mac-iphone {
+		--p-height: 296px;
+	}
+}
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/
