@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Users</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/_custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <!-- sidebar -->
+    <div class="col-sm-4 col-md-3 col-lg-2 d-flex flex-column bg-dark p-4 vh-100">
+      <h1 class="text-white">Admin Panel</h1>
+      <nav class="nav d-flex flex-column">
+        <a class="nav-link text-white py-2 px-0" href="dashboard.html">
+          <i class="fa fa-dashboard py-2 px-0"></i> Dashboard
+        </a>
+        <a class="nav-link text-white py-2 px-0" href="products.html">
+          <i class="fa fa-shopping-cart"></i> Products
+        </a>
+        <a class="nav-link text-white py-2 px-0" href="orders.html">
+          <i class="fa fa-credit-card"></i> Orders
+        </a>
+        <a class="nav-link text-white py-2 px-0" href="users.html">
+          <i class="fa fa-user"></i> Users
+        </a>
+      </nav>
+
+      <div class="text-white mt-auto">
+        <hr class="text-white">
+        <a class="nav-link" href="user-profile.html">Lukáš Pospíšek</a>
+      </div>
+
+    </div>
+    <!-- content -->
+    <div class="col-sm-8 col-md-9 col-lg-10 bg-light vh-100 p-4">
+      <h2>Users</h2>
+      <button class="btn btn-dark mb-4" data-bs-toggle="modal" data-bs-target="#addUserModal">Add User</button>
+
+
+      <div class="list-group">
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>John Doe</h5>
+            <p>johndoe@example.com</p>
+            <p>+1 202 575 2697</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions1" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions1">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Alice Smith</h5>
+            <p>alice.smith@example.com</p>
+            <p>+1 202 455 4578</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions3" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions2">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Michael Johnson</h5>
+            <p>michael.johnson@example.com</p>
+            <p>+1 202 589 3789</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions4" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions2">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Emily Davis</h5>
+            <p>emily.davis@example.com</p>
+            <p>+1 202 755 1497</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions5" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions2">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>David Brown</h5>
+            <p>david.brown@example.com</p>
+            <p>+1 202 655 4789</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions6" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions2">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <div>
+            <h5>Sophia Taylor</h5>
+            <p>sophia.taylor@example.com</p>
+            <p>+1 202 555 4862</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownActions2" data-bs-toggle="dropdown" aria-expanded="false">
+              Actions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownActions2">
+              <li><a class="dropdown-item" href="#">Delete</a></li>
+              <li><a class="dropdown-item" href="#">Detail</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="addUserModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addUserModalLabel">Add User</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="phone" required>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
